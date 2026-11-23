@@ -2,7 +2,9 @@
 
 **Proven floors and ceilings on the capacity of three classic binary channels whose output depends on the previous input, at five noise levels each, every number backed by a checkable certificate**
 
-Moki & Julio (AI-assisted) · 2026 · version 1.0 · DOI [pending] · code MIT, everything else CC BY 4.0 (LICENSE-CODE, LICENSE)
+Moki & Julio (AI-assisted) · 2026 · version 1.0 · DOI [10.5281/zenodo.24472620](https://doi.org/10.5281/zenodo.24472620) · code MIT, everything else CC BY 4.0 (LICENSE-CODE, LICENSE)
+
+[![DOI 10.5281/zenodo.24472620](brand/doi.svg)](https://doi.org/10.5281/zenodo.24472620) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
 > How many bits per use can you send through a channel that remembers your last symbol? For these three channels nobody knows exactly. The published proven ranges we compared with are between a few ten-thousandths and a few hundredths wide; ours are as narrow as 8.1e-13.
 

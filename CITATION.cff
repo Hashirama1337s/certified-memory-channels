@@ -4,6 +4,7 @@ title: "Channels with memory: certified capacity windows for the dicode erasure 
 authors:
   - name: "Moki & Julio"
 version: "1.0"
+doi: "10.5281/zenodo.24472620"
 license: [CC-BY-4.0, MIT]
 keywords:
   - channel capacity

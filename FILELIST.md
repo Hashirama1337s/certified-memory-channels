@@ -8,7 +8,7 @@ Every file in this package: what it is for, where it came from in the working fo
 and whether it was changed on the way ("yes": see PATCHES.md), copied byte for byte ("no"), compressed with gzip from the
 certified file ("gzip"), or written for this release ("new"). `MANIFEST.sha256` holds the checksum of every file listed here.
 
-356 files listed here, plus `MANIFEST.sha256` itself.
+359 files listed here, plus `MANIFEST.sha256` itself.
 
 | file | purpose | source | changed |
 |---|---|---|---|
@@ -33,6 +33,9 @@ certified file ("gzip"), or written for this release ("new"). `MANIFEST.sha256` 
 | `bars/RESULT-ATLAS4.md` | sealed test or its scoring | atlas/ | no |
 | `bars/RESULT-ATLAS5.md` | sealed test or its scoring | atlas/ | no |
 | `bars/RESULT-ATLAS6.md` | sealed test or its scoring | atlas/ | no |
+| `brand/doi.svg` | front-page badge | new | new |
+| `brand/lab.svg` | front-page badge | new | new |
+| `brand/licence.svg` | front-page badge | new | new |
 | `certificates/cert_dec_1-10_k10.json.gz` | ceiling certificate (gzip) | atlas/run_atlas6/ | gzip |
 | `certificates/cert_dec_1-10_k11.json.gz` | ceiling certificate (gzip) | atlas/run_atlas6/ | gzip |
 | `certificates/cert_dec_1-2_k10.json.gz` | ceiling certificate (gzip) | atlas/run_atlas6/ | gzip |
