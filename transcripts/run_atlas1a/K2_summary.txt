@@ -1,0 +1,8 @@
+clean exit 0
+clean exit 0
+clean exit 0
+clean exit 0
+tamper exit 1
+tamper exit 1
+tamper exit 1
+tamper exit 1

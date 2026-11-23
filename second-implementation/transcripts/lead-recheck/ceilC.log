@@ -1,0 +1,3 @@
+{"kind": "dec", "K": 9, "windows": 2048, "terms": 2097152, "tamper": false, "max_edge_value": "[1.6749682228575984892 +/- 8.21e-22]", "rhs_U_plus_HYX": "[1.6749682228575990000 +/- 3e-24]", "implied_ceiling_upper": "0.6749682228575984892008192", "claimed": "674968222857599/1000000000000000", "verdict": "PASS", "seconds": 4.5}
+memcap: exit 0, peak 0.45 GB of 8.00 GB cap
+exit 0 secs 5

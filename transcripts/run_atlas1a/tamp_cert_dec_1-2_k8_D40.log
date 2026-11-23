@@ -1,0 +1,11 @@
+self-tests (S1) tables == operational definitions, (S3) recursion == brute force (5 channels, k=1..3): PASS (0.0s)
+cert tamp_cert_dec_1-2_k8_D40.json
+  channel dec:1/2 |Y|=4 k=8 contexts=65536 allowed windows=512/512 allowed edges=1024/1024; T rows positive and exact laws: PASS; noise H(Y|a,b) lower bounds [[1.0, 1.0], [1.0, 1.0]]
+  computed rho_up = max over allowed edges (rounded up) = 0.681918065234803   argmax edge 1100000001
+  claimed rho = 0.674971117487896; allowed edges violating the claim: 512 of 1024 -> REJECT
+  CERTIFIED: C <= NONE (rejected)
+  sha256 37e9a6ce58aef88da288a4a546104196c3d0a30739a0d3aa9757e5ad55273121
+  verifier time 0.41s
+RESULT: REJECT
+memcap: exit 1, peak 0.44 GB of 4.00 GB cap
+tamper exit 1

@@ -1,0 +1,9 @@
+windows 610 nodes 377 free 233
+start F 0.39319848452620576
+after lbfgs maxA=2.138e-06
+newton 0 F=0.393198484526529 maxA=6.258e-09 t=1
+newton 1 F=0.393198484526529 maxA=1.799e-14 t=1
+primal F=0.393198484526529  |g|max=5.43e-18  nit=87  137.5s
+memcap: exit 0, peak 0.85 GB of 8.00 GB cap
+rllbec K=12  U_cert=0.393198484526620  U_est_lo=0.393198484526564  nwin=610 iters=86 0.7s
+memcap: exit 0, peak 0.46 GB of 8.00 GB cap

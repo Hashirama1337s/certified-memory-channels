@@ -1,0 +1,18 @@
+8fc432ae6744792abd51c4afd0141c59c0b3aa1044670d41135de3d1112fce57 *atlas/engine2/atlas_primal.py
+d1d5c6f4bdcec0e3d79cb6a6f03e0b7471297d194754975fc002033a3d3cf6ec *atlas/seats/design-1/engine/atlas_ub.py
+ac53822cb655a132f44b6b37e8d087ac60041d16c025e2ee08db49b5a51b8dab *atlas/seats/design-1/engine/atlas_verify_ub.py
+f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33 *atlas/seats/design-1/engine/channel_spec.py
+dec:1/10 k=10: edges 4096, kept output columns 887040, contexts reached 259808
+    it  0  F = 0.9820363677204815  |N^T g| = 1.81e-02  decrement = 1.90e-04  t = 1  min mu = 1.93e-04
+    it  1  F = 0.9820366714386486  |N^T g| = 3.03e-04  decrement = 6.03e-07  t = 1  min mu = 2.00e-04
+    it  2  F = 0.9820366714971581  |N^T g| = 1.63e-07  decrement = 1.17e-10  t = 1  min mu = 2.00e-04
+    it  3  F = 0.9820366714971618  |N^T g| = 2.04e-13  decrement = 3.02e-17  t = 1  min mu = 2.00e-04
+    it  4  F = 0.9820366714971600  |N^T g| = 5.93e-14  decrement = 6.10e-27  t = 1  min mu = 2.00e-04
+    it  5  F = 0.9820366714971618  |N^T g| = 5.43e-14  decrement = 2.97e-28  t = 1  min mu = 2.00e-04
+    it  6  F = 0.9820366714971583  |N^T g| = 2.94e-14  decrement = 1.25e-28  t = 0.5  min mu = 2.00e-04
+    it  7  F = 0.9820366714971583  |N^T g| = 2.36e-14  decrement = 4.48e-29  t = 0.25  min mu = 2.00e-04
+    it  8  F = 0.9820366714971548  |N^T g| = 1.88e-14  decrement = 2.13e-29  t = 0.125  min mu = 2.00e-04
+    it  9  F = 0.9820366714971582  |N^T g| = 1.87e-14  decrement = 1.46e-29  t = 0.125  min mu = 2.00e-04
+    it 10  F = 0.9820366714971582  |N^T g| = 1.87e-14  decrement = 1.16e-29  t = 9.09e-13  min mu = 2.00e-04
+dec:1/10 k=10 D=2^48: primal F = 0.9820366714971582; exact rho = 0.982036671497325 (rounded up); VI 45 its; wrote atlas/run_atlas3/cert_dec_1-10_k10.json (110.4s)
+memcap: exit 0, peak 1.83 GB of 8.00 GB cap

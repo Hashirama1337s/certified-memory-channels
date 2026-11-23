@@ -1,0 +1,67 @@
+8fc432ae6744792abd51c4afd0141c59c0b3aa1044670d41135de3d1112fce57 *atlas/engine2/atlas_primal.py
+d1d5c6f4bdcec0e3d79cb6a6f03e0b7471297d194754975fc002033a3d3cf6ec *atlas/seats/design-1/engine/atlas_ub.py
+ac53822cb655a132f44b6b37e8d087ac60041d16c025e2ee08db49b5a51b8dab *atlas/seats/design-1/engine/atlas_verify_ub.py
+f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33 *atlas/seats/design-1/engine/channel_spec.py
+dec:9/10 k=10: edges 4096, kept output columns 887040, contexts reached 259808
+    it  0  F = 0.1479031101415602  |N^T g| = 1.94e-01  decrement = 1.43e-02  t = 0.0382  min mu = 2.44e-06
+    it  1  F = 0.1479085805552717  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 0.000416  min mu = 2.44e-08
+    it  2  F = 0.1479086369321348  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 4.29e-06  min mu = 2.44e-10
+    it  3  F = 0.1479086391528269  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 1.69e-07  min mu = 2.44e-12
+    it  4  F = 0.1479086408319539  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 1.28e-07  min mu = 2.44e-14
+    it  5  F = 0.1479086425056693  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 1.27e-07  min mu = 2.44e-16
+    it  6  F = 0.1479086441793288  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 1.27e-07  min mu = 2.44e-18
+    it  7  F = 0.1479086458529873  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 1.27e-07  min mu = 2.44e-20
+    it  8  F = 0.1479086476294534  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 1.35e-07  min mu = 2.44e-22
+    it  9  F = 0.1479086487980235  |N^T g| = 1.94e-01  decrement = 1.31e-02  t = 8.9e-08  min mu = 2.44e-24
+    it 10  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.24e-02  t = 2.95e-09  min mu = 2.44e-26
+    it 11  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.84e-17  t = 7.68e-13  min mu = 2.43e-26
+    it 12  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.83e-17  t = 7.68e-13  min mu = 2.42e-26
+    it 13  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.82e-17  t = 7.68e-13  min mu = 2.41e-26
+    it 14  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.82e-17  t = 7.68e-13  min mu = 2.40e-26
+    it 15  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.81e-17  t = 7.68e-13  min mu = 2.39e-26
+    it 16  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.80e-17  t = 7.68e-13  min mu = 2.39e-26
+    it 17  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.80e-17  t = 7.68e-13  min mu = 2.38e-26
+    it 18  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.79e-17  t = 7.68e-13  min mu = 2.37e-26
+    it 19  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.78e-17  t = 7.68e-13  min mu = 2.36e-26
+    it 20  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.77e-17  t = 7.68e-13  min mu = 2.35e-26
+    it 21  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.77e-17  t = 7.68e-13  min mu = 2.34e-26
+    it 22  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.76e-17  t = 7.68e-13  min mu = 2.33e-26
+    it 23  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.75e-17  t = 7.68e-13  min mu = 2.32e-26
+    it 24  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.75e-17  t = 7.68e-13  min mu = 2.31e-26
+    it 25  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.74e-17  t = 7.68e-13  min mu = 2.30e-26
+    it 26  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.73e-17  t = 7.68e-13  min mu = 2.29e-26
+    it 27  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.73e-17  t = 7.68e-13  min mu = 2.29e-26
+    it 28  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.72e-17  t = 7.68e-13  min mu = 2.28e-26
+    it 29  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.71e-17  t = 7.68e-13  min mu = 2.27e-26
+    it 30  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.71e-17  t = 7.68e-13  min mu = 2.26e-26
+    it 31  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.70e-17  t = 7.68e-13  min mu = 2.25e-26
+    it 32  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.69e-17  t = 7.68e-13  min mu = 2.24e-26
+    it 33  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.69e-17  t = 7.68e-13  min mu = 2.23e-26
+    it 34  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.68e-17  t = 7.68e-13  min mu = 2.22e-26
+    it 35  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.67e-17  t = 7.68e-13  min mu = 2.22e-26
+    it 36  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.67e-17  t = 7.68e-13  min mu = 2.21e-26
+    it 37  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.66e-17  t = 7.68e-13  min mu = 2.20e-26
+    it 38  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.65e-17  t = 7.68e-13  min mu = 2.19e-26
+    it 39  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.65e-17  t = 7.68e-13  min mu = 2.18e-26
+    it 40  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.64e-17  t = 7.68e-13  min mu = 2.17e-26
+    it 41  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.64e-17  t = 7.68e-13  min mu = 2.17e-26
+    it 42  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.63e-17  t = 7.68e-13  min mu = 2.16e-26
+    it 43  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.62e-17  t = 7.68e-13  min mu = 2.15e-26
+    it 44  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.62e-17  t = 7.68e-13  min mu = 2.14e-26
+    it 45  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.61e-17  t = 7.68e-13  min mu = 2.13e-26
+    it 46  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.60e-17  t = 7.68e-13  min mu = 2.12e-26
+    it 47  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.60e-17  t = 7.68e-13  min mu = 2.12e-26
+    it 48  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.59e-17  t = 7.68e-13  min mu = 2.11e-26
+    it 49  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.59e-17  t = 7.68e-13  min mu = 2.10e-26
+    it 50  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.58e-17  t = 7.68e-13  min mu = 2.09e-26
+    it 51  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.57e-17  t = 7.68e-13  min mu = 2.08e-26
+    it 52  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.57e-17  t = 7.68e-13  min mu = 2.07e-26
+    it 53  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.56e-17  t = 7.68e-13  min mu = 2.07e-26
+    it 54  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.56e-17  t = 7.68e-13  min mu = 2.06e-26
+    it 55  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.55e-17  t = 7.68e-13  min mu = 2.05e-26
+    it 56  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.54e-17  t = 7.68e-13  min mu = 2.04e-26
+    it 57  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.54e-17  t = 7.68e-13  min mu = 2.04e-26
+    it 58  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.53e-17  t = 7.68e-13  min mu = 2.03e-26
+    it 59  F = 0.1479086488346262  |N^T g| = 1.94e-01  decrement = 1.53e-17  t = 7.68e-13  min mu = 2.02e-26
+dec:9/10 k=10 D=2^48: primal F = 0.1479086488346262; exact rho = 0.188382370950217 (rounded up); VI 60 its; wrote atlas/run_atlas3/cert_dec_9-10_k10.json (319.9s)
+memcap: exit 0, peak 1.83 GB of 8.00 GB cap

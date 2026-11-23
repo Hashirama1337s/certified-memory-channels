@@ -1,0 +1,15 @@
+windows 2048 nodes 1024 free 1024
+start F 0.6749682228109322
+after lbfgs maxA=4.730e-03
+newton 0 F=0.674968222857455 maxA=1.442e-03 t=1
+newton 1 F=0.674968222857482 maxA=5.252e-06 t=1
+newton 2 F=0.674968222857482 maxA=1.403e-09 t=1
+newton 3 F=0.674968222857483 maxA=2.755e-10 t=1
+newton 4 F=0.674968222857483 maxA=8.490e-11 t=1
+newton 5 F=0.674968222857483 maxA=3.750e-11 t=1
+newton 6 F=0.674968222857483 maxA=9.871e-12 t=0.25
+newton 7 F=0.674968222857483 maxA=3.324e-12 t=1
+primal F=0.674968222857483  |g|max=5.30e-19  nit=1  807.1s
+memcap: exit 0, peak 0.15 GB of 8.00 GB cap
+dec K=9  U_cert=0.674968222857642  U_est_lo=0.674968222857546  nwin=2048 iters=92 0.3s
+memcap: exit 0, peak 0.09 GB of 8.00 GB cap

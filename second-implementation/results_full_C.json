@@ -1,0 +1,78 @@
+{
+ "C": {
+  "U": "0.674968222857599",
+  "L": "0.674950676626481",
+  "U_engine_cert": "0.674968222857642",
+  "engine_claim_check": "PASS",
+  "gap": "0.000017546231118",
+  "ceiling_check": {
+   "kind": "dec",
+   "K": 9,
+   "windows": 2048,
+   "terms": 2097152,
+   "tamper": false,
+   "max_edge_value": "[1.6749682228575984892 +/- 8.21e-22]",
+   "rhs_U_plus_HYX": "[1.6749682228575990000 +/- 3e-24]",
+   "implied_ceiling_upper": "0.6749682228575984892008192",
+   "claimed": "674968222857599/1000000000000000",
+   "verdict": "PASS",
+   "seconds": 4.7
+  },
+  "ceiling_check_verdict": "PASS",
+  "ceiling_tamper_verdict": "REJECT",
+  "ceiling_claim_minus_1em12_verdict": "REJECT",
+  "floor_check": {
+   "source": "g_decrl_R10.json",
+   "depth": 18,
+   "tamper": false,
+   "nodes": 5242880,
+   "L_d_minus_HYX": "[0.6749506766264816634351362 +/- 1.25e-26]",
+   "certified_lower": "0.674950676626481663435136212452",
+   "claimed": "0.674950676626481",
+   "claim_fraction": "674950676626481/1000000000000000",
+   "verdict": "PASS",
+   "extra_claims": {
+    "674950676627481/1000000000000000": "REJECT"
+   },
+   "seconds": 79.3
+  },
+  "floor_check_verdict": "PASS",
+  "floor_claim_plus_1em12_verdict": "REJECT",
+  "floor_tamper_theta_verdict": "REJECT",
+  "files": {
+   "qtab_dec_1-2_K9.npy": "0a5b25939e5952e7e4c833efdf8b62a227f68b2868c7718c49577de6e9785b8b",
+   "V_dec_1-2_K9.npy": "4b8fc76a8c8bb35d234a73e6980e730a0b09e20844853cbb1d68523e079b82f5",
+   "cert_dec_1-2_K9.json": "7ea0a0eaeea466c094d46886dd75d15c11793c4932f556275dfff34d0deabfa0",
+   "g_decrl_R10.json": "5e5f66989269daa7e8f4dce5477dd875b6cb547ac80f768399ca1f5bb442e79c"
+  },
+  "plan": {
+   "kind": "dec",
+   "noise": "1/2",
+   "K": 9,
+   "floor_src": "g_decrl_R10.json",
+   "floor_depth": 18,
+   "L_claim": "0.674950676626481"
+  }
+ },
+ "scripts": {
+  "assemble.py": "6e25bebb4cfc03c8477d87e4f9d4cb9ab3e66f5bb9b30fc4ea947392d7148998",
+  "ceil_engine.py": "af116864631fffdea38ceda275a1c8207d9705ac10744191a3b3e8c3394f1e88",
+  "check_ceil.py": "3884d7e1ac8c6e1398d4b96417568befb28b51deee93b83393f2e01eb7934bce",
+  "check_floor.py": "31fc79c64ca57cac6659c6ca12408c9b5ea16376e9df69d4870ee24b92dfcb77",
+  "ctl_ceil.py": "585048f7290cded3302f7779aae60567ec27cdb1dbd08a41003440344907e1ef",
+  "ctl_floor.py": "6c196b5c56bea6e2f0e969d1c096f48bd8718962e9dec681681825137dad765e",
+  "ctl_log2.py": "d3a98219fb92c7c13ebab68af8e05712b896b2a5173d2f0770383cfb8c49ab05",
+  "floor_engine.py": "ec92ef64bf081cf8ddfcab95920de76dba40a0ea04b728542517d741ab0ba0db",
+  "ivl.py": "350683de22b61e89df5d94c378e29d83d77a6534b4bed3f3eabc7e9242785249",
+  "mkctl.py": "3a874711009cef889d43bb01d5b9896792c183ef7b91faf514a0106e557e1384",
+  "models.py": "551e3fb27ea9ed5c61f60c5a41a085b5b2cff42c3540b214fd1fb145f9a27df0",
+  "opt_dual.py": "6dc16e1f906f06f9829918570db83afe86b84a6bb2533ca69d410adea8c9bc2a",
+  "opt_floor.py": "8225da53b2784d3bd4b1c4985f9b393e37e60ccd9eb5a29e232abd403beae1a7",
+  "opt_floor_rl.py": "22ed652daae45c4de38358b12c4c592f3bb2101d1e369a59c10c122363db2d35",
+  "probe_sizes.py": "d277c137ce0a7fd7ef2444a42514afb59e83ed569cfcfea13858c4a3479ff403",
+  "run_ceil.py": "b949e37f2f8e7a00e072cc4061b51e9734cd22a043bf8030c3dbbcbd8ba825b9",
+  "run_ceilq.py": "6038937c214699d315b155c6d4a53f2aacc7b758c0b190140250f4ce99fe639c",
+  "run_floor.py": "08bc8acc537eee59f08546bb92b4d4ecb7584ba450463f5f9804bd5f7e9cfeda",
+  "z2theta.py": "a460339d35f50340a8ebd61ae40f6fb80ded138324fcdbab836ad764974797e8"
+ }
+}

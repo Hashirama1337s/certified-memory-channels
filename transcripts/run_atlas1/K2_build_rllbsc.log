@@ -1,0 +1,4 @@
+  dual solve rllbsc:11/100 k=6: rho_float = 0.3817271464082 status=optimal nnz(Mu)=7040 edges=55 (0.0s)
+  exact rho from dual t: 0.381727146408317; from KKT conditional law: 0.381727146408317
+rllbsc:11/100 k=6 D=2^40: VI 64 its bracket [0.3817271464082, 0.3817271464083]; exact rho = 0.381727146408317 (rounded up) [perturbed (0, 0)]; wrote atlas/run_atlas1/K2_tamper_rllbsc.json (1.3s)
+memcap: exit 0, peak 2.19 GB of 8.00 GB cap

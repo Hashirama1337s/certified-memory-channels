@@ -1,0 +1,4 @@
+decrl m=10 d=9  I_floor=0.674949219248241  I_srcupper=0.674951472551516  width=2.25e-06
+decrl m=10 d=13  I_floor=0.674950665160559  I_srcupper=0.674950682903018  width=1.77e-08
+decrl m=10 d=18  I_floor=0.674950676626135  I_srcupper=0.674950676668971  width=4.28e-11
+nodes 5767167 100.7s

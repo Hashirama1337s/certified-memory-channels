@@ -1,0 +1,14 @@
+ddf2a0c9900153d91dcc24520b6771104b63b83d68702047f2f6af6c9cb03c03 *atlas/engine2/atlas_primal2.py
+d1d5c6f4bdcec0e3d79cb6a6f03e0b7471297d194754975fc002033a3d3cf6ec *atlas/seats/design-1/engine/atlas_ub.py
+ac53822cb655a132f44b6b37e8d087ac60041d16c025e2ee08db49b5a51b8dab *atlas/seats/design-1/engine/atlas_verify_ub.py
+f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33 *atlas/seats/design-1/engine/channel_spec.py
+rllbec:1/4 k=12: edges 987, kept output columns 508992, contexts reached 186304
+    tau 1e-03: its  8  F = 0.5491443154004967  |N^T grad| = 6.32e-09  min mu = 4.64e-04
+    tau 1e-05: its  5  F = 0.5505724979643172  |N^T grad| = 7.77e-09  min mu = 2.64e-04
+    tau 1e-07: its  4  F = 0.5506053462425732  |N^T grad| = 4.83e-13  min mu = 2.25e-04
+    tau 1e-09: its  4  F = 0.5506053511470302  |N^T grad| = 4.27e-13  min mu = 2.25e-04
+    tau 1e-11: its 22  F = 0.5506053511475243  |N^T grad| = 1.25e-14  min mu = 2.25e-04
+    tau 1e-13: its 15  F = 0.5506053511475134  |N^T grad| = 2.41e-14  min mu = 2.25e-04
+    tau 1e-15: its 11  F = 0.5506053511475026  |N^T grad| = 3.39e-14  min mu = 2.25e-04
+rllbec:1/4 k=12 D=2^48: primal F = 0.5506053511475026; exact rho = 0.550605351147963 (rounded up); VI 51 its; wrote atlas/run_atlas4/cert_rllbec_1-4_k12.json (113.7s)
+memcap: exit 0, peak 1.40 GB of 8.00 GB cap

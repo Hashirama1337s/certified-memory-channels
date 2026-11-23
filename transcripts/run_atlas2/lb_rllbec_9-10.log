@@ -1,0 +1,27 @@
+bd74dd6fbaca5749b181a17b90e16bc78eaeab22786e950fa6fe03b7f0f25de7 *atlas_lb.py
+f8708540fad794a370d21dc45f31de4fdb3d0d747148bfcff87d213a5f240e6a *atlas_opt.py
+723b43bfe915710a9ecf5d118dc0fe92989f40e524417b0404a9d3760dafa70e *atlas_rows.py
+d1d5c6f4bdcec0e3d79cb6a6f03e0b7471297d194754975fc002033a3d3cf6ec *atlas_ub.py
+ac53822cb655a132f44b6b37e8d087ac60041d16c025e2ee08db49b5a51b8dab *atlas_verify_ub.py
+f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33 *channel_spec.py
+9cda3b97e39fa5967619279809001a7fbe6e5e6115afe1a938fa83b476cab5b8 *controls.py
+b2053933ee5c9149ed681d94235f83736787b50d1cee1b1f785e3ed2fd97b079 *sweep_ub.py
+  leaf 1/16  0.3s
+  leaf 2/16  0.6s
+  leaf 4/16  1.1s
+  leaf 8/16  2.1s
+  leaf 16/16  4.2s
+channel: rllbec:9/10   mode: flag (erasure flag law 9/10)
+input sha256 = d24eb4922512fb3795e85cb0714699a9c308c84ef2b17c0460cff47733bb4968
+kernel cert_backward2.py sha256 = a7a0ae2477ec8807eebdd6e579a65878796b3eee9e64616d1f19fb0058cd87dd
+rows atlas_rows.py sha256 = 723b43bfe915710a9ecf5d118dc0fe92989f40e524417b0404a9d3760dafa70e
+spec channel_spec.py sha256 = f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33
+input K=5 automaton states nq=32 hidden states M=81 N=10 (kernel lengths [20]) nb=16  LAMBDA = 3.8671e-15
+noise term (exact rational upper bound) ~ 0.0000000000000000
+a-priori: smallest positive float coefficient 9.536743e-08
+  run length 20: observed min positive beta 1.319e-29 max beta 0.3486784401000001
+L_N computed (exact combination of float entropies) = 0.0923091586515120 (rounded down)
+rigorous error bound E = 5.305e-13
+CERTIFIED LOWER ENDPOINT: 0.09230915865098
+time total 4.2s
+memcap: exit 0, peak 0.67 GB of 8.00 GB cap

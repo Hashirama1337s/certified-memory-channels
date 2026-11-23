@@ -1,0 +1,21 @@
+8fc432ae6744792abd51c4afd0141c59c0b3aa1044670d41135de3d1112fce57 *atlas/engine2/atlas_primal.py
+d1d5c6f4bdcec0e3d79cb6a6f03e0b7471297d194754975fc002033a3d3cf6ec *atlas/seats/design-1/engine/atlas_ub.py
+ac53822cb655a132f44b6b37e8d087ac60041d16c025e2ee08db49b5a51b8dab *atlas/seats/design-1/engine/atlas_verify_ub.py
+f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33 *atlas/seats/design-1/engine/channel_spec.py
+dec:1/4 k=10: edges 4096, kept output columns 887040, contexts reached 259808
+    it  0  F = 0.9015382711881581  |N^T g| = 1.75e-01  decrement = 3.92e-03  t = 0.559  min mu = 2.44e-06
+    it  1  F = 0.9017979201937644  |N^T g| = 7.80e-02  decrement = 5.26e-04  t = 1  min mu = 8.92e-06
+    it  2  F = 0.9018000564561031  |N^T g| = 2.80e-02  decrement = 3.76e-06  t = 1  min mu = 2.08e-05
+    it  3  F = 0.9018003294173903  |N^T g| = 4.10e-03  decrement = 4.96e-07  t = 1  min mu = 2.95e-05
+    it  4  F = 0.9018003363551583  |N^T g| = 9.31e-05  decrement = 1.37e-08  t = 1  min mu = 3.12e-05
+    it  5  F = 0.9018003363587462  |N^T g| = 4.79e-08  decrement = 7.22e-12  t = 1  min mu = 3.12e-05
+    it  6  F = 0.9018003363587641  |N^T g| = 2.66e-13  decrement = 1.90e-18  t = 1  min mu = 3.12e-05
+    it  7  F = 0.9018003363587535  |N^T g| = 1.09e-13  decrement = 1.11e-26  t = 1  min mu = 3.12e-05
+    it  8  F = 0.9018003363587606  |N^T g| = 5.27e-14  decrement = 1.39e-27  t = 0.5  min mu = 3.12e-05
+    it  9  F = 0.9018003363587607  |N^T g| = 4.35e-14  decrement = 3.71e-28  t = 0.25  min mu = 3.12e-05
+    it 10  F = 0.9018003363587606  |N^T g| = 3.90e-14  decrement = 1.91e-28  t = 0.0312  min mu = 3.12e-05
+    it 11  F = 0.9018003363587606  |N^T g| = 3.89e-14  decrement = 1.66e-28  t = 0.00391  min mu = 3.12e-05
+    it 12  F = 0.9018003363587606  |N^T g| = 3.88e-14  decrement = 1.66e-28  t = 0.00195  min mu = 3.12e-05
+    it 13  F = 0.9018003363587606  |N^T g| = 3.88e-14  decrement = 1.64e-28  t = 9.09e-13  min mu = 3.12e-05
+dec:1/4 k=10 D=2^48: primal F = 0.9018003363587606; exact rho = 0.901800336358927 (rounded up); VI 52 its; wrote atlas/run_atlas3/cert_dec_1-4_k10.json (136.3s)
+memcap: exit 0, peak 1.83 GB of 8.00 GB cap

@@ -1,0 +1,5 @@
+rllbec m=8 d=6  I_floor=0.393198463519427  I_srcupper=0.393198505214362  width=4.17e-08
+rllbec m=8 d=9  I_floor=0.393198484429996  I_srcupper=0.393198484501084  width=7.11e-11
+rllbec m=8 d=13  I_floor=0.393198484463621  I_srcupper=0.393198484465286  width=1.66e-12
+nodes 5384743 358.5s
+memcap: exit 0, peak 1.89 GB of 8.00 GB cap

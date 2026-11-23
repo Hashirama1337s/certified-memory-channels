@@ -1,0 +1,15 @@
+  leaf 1/1  0.1s
+channel: rllbsc:1/20   mode: native
+input sha256 = dd72fa35a4d9bbd7f292293ff86ebb4a34a044dcae2a79d0ea240ced7c07378a
+kernel cert_backward2.py sha256 = a7a0ae2477ec8807eebdd6e579a65878796b3eee9e64616d1f19fb0058cd87dd
+rows atlas_rows.py sha256 = 723b43bfe915710a9ecf5d118dc0fe92989f40e524417b0404a9d3760dafa70e
+spec channel_spec.py sha256 = f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33
+input K=5 automaton states nq=32 hidden states M=32 N=16 (kernel lengths [16]) nb=16  LAMBDA = 3.8671e-15
+noise term (exact rational upper bound) ~ 0.2863969571159561
+a-priori: smallest positive float coefficient 1.994863e-02
+  run length 16: observed min positive beta 6.729e-14 max beta 0.0010032595368627243
+L_N computed (exact combination of float entropies) = 0.5196842686619751 (rounded down)
+rigorous error bound E = 3.668e-13
+CERTIFIED LOWER ENDPOINT: 0.51968426866160
+time total 0.1s
+memcap: exit 0, peak 0.46 GB of 8.00 GB cap

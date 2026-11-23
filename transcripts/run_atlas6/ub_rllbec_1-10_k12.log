@@ -1,0 +1,20 @@
+8c24a4e73dc29c9ad80b691d3339a1cbe24a54072ed1f96ec100e9f376c9aebd *atlas/engine2/atlas_primal4.py
+d1d5c6f4bdcec0e3d79cb6a6f03e0b7471297d194754975fc002033a3d3cf6ec *atlas/seats/design-1/engine/atlas_ub.py
+ac53822cb655a132f44b6b37e8d087ac60041d16c025e2ee08db49b5a51b8dab *atlas/seats/design-1/engine/atlas_verify_ub.py
+f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33 *atlas/seats/design-1/engine/channel_spec.py
+rllbec:1/10 k=12: edges 987, kept output columns 508992, contexts reached 186304
+    tau 1e-03: its  8  F = 0.6379688230945755  |N^T grad| = 4.63e-09 (best)  min mu = 4.76e-04
+    tau 1e-05: its  3  F = 0.6381475827651492  |N^T grad| = 3.84e-10 (best)  min mu = 4.29e-04
+    tau 1e-07: its  3  F = 0.6381487615685046  |N^T grad| = 3.27e-13 (best)  min mu = 4.24e-04
+    tau 1e-09: its  2  F = 0.6381487617108013  |N^T grad| = 2.68e-13 (best)  min mu = 4.24e-04
+    tau 1e-11: its 12  F = 0.6381487617108155  |N^T grad| = 9.39e-15 (best)  min mu = 4.24e-04
+    tau 1e-13: its 17  F = 0.6381487617108299  |N^T grad| = 9.96e-15 (best)  min mu = 4.24e-04
+    tau 1e-15: its 15  F = 0.6381487617108298  |N^T grad| = 1.14e-14 (best)  min mu = 4.25e-04
+  plain Newton from the uniform start:
+  plain Newton polish from the barrier iterate:
+  candidate 0: exact rho = 0.638148761726739
+  candidate 1: exact rho = 0.638148761711075
+  candidate 2: exact rho = 0.638148761710989
+  candidate 3: exact rho = 0.638148761710981
+rllbec:1/10 k=12 D=2^48: primal F = 0.6381487617108298; exact rho = 0.638148761710981 (rounded up); VI 76 its; wrote atlas/run_atlas6/cert_rllbec_1-10_k12.json (168.8s)
+memcap: exit 0, peak 1.46 GB of 8.00 GB cap

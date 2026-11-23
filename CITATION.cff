@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Channels with memory: certified capacity windows for the dicode erasure and (1,inf)-RLL erasure and flip channels"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+license: [CC-BY-4.0, MIT]
+keywords:
+  - channel capacity
+  - channels with memory
+  - dicode erasure channel
+  - run-length limited constraint
+  - certified computation
+  - duality upper bound
+  - ball arithmetic
+abstract: >-
+  Certified (rigorous) floors and ceilings on the capacity without feedback of three binary channels whose output depends
+  on the previous input - the dicode erasure channel, the (1,inf)-RLL input-constrained binary erasure channel and the
+  (1,inf)-RLL input-constrained binary symmetric channel - at five noise levels each. Ceilings are order-k dual bounds
+  checked in exact rational arithmetic with upward-rounded logarithms; floors are Birch-type lower bounds on the information rates of explicit
+  Markov inputs with a written rounding-error bound. Widths range from 8.1e-13 to 1.2e-4 bits per use; every window is
+  consistent with the published proven ranges we compared with; at dicode erasure rate 0.1 our ceiling is below the best published analytic
+  ceiling (and the published floor there is higher than ours). An independent second implementation agrees at the three standard points. Sealed (pre-registered) tests with
+  their failures, referee reports, certificates and transcripts are included. Code is MIT-licensed (LICENSE-CODE).
+  Written with AI assistance.

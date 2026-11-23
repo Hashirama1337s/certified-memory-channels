@@ -1,0 +1,11 @@
+self-tests (S1) tables == operational definitions, (S3) recursion == brute force (5 channels, k=1..3): PASS (0.0s)
+cert atlas/run_atlas2/K2_tamp_cert_rllbec_9-10_k7_D40.json
+  channel rllbec:9/10 |Y|=3 k=7 contexts=2187 allowed windows=55/256 allowed edges=89/512; T rows positive and exact laws: PASS; noise H(Y|a,b) lower bounds [[0.4689955935892812, 0.4689955935892812], [0.4689955935892812, 0.4689955935892812]]
+  computed rho_up = max over allowed edges (rounded up) = 0.103660487772586   argmax edge 001001001
+  claimed rho = 0.092312719214584; allowed edges violating the claim: 34 of 89 -> REJECT
+  CERTIFIED: C <= NONE (rejected)
+  sha256 3a284ab213dd94b1bcfe8c899328852b58dcf329630b75ec75ab11bb40f52e5f
+  verifier time 0.03s
+RESULT: REJECT
+memcap: exit 1, peak 0.40 GB of 8.00 GB cap
+tamper exit 1

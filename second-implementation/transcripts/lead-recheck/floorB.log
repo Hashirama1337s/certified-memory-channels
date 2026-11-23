@@ -1,0 +1,3 @@
+{"source": "theta_rllbsc_dualK8.json", "depth": 14, "tamper": false, "nodes": 1114099, "L_d_minus_HYX": "[0.5196842686678576080444487 +/- 4.81e-26]", "certified_lower": "0.519684268667857608044448748092", "claimed": "0.519684268667857", "claim_fraction": "519684268667857/1000000000000000", "verdict": "PASS", "extra_claims": {}, "seconds": 32.8}
+memcap: exit 0, peak 0.02 GB of 8.00 GB cap
+exit 0 secs 33

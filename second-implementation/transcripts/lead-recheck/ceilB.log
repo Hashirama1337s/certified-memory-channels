@@ -1,0 +1,3 @@
+{"kind": "rllbsc", "K": 14, "windows": 1597, "terms": 52330496, "tamper": false, "max_edge_value": "[0.80608122578386635133 +/- 2.24e-21]", "rhs_U_plus_HYX": "[0.80608122578386712877 +/- 3.53e-21]", "implied_ceiling_upper": "0.5196842686679102225612875", "claimed": "519684268667911/1000000000000000", "verdict": "PASS", "seconds": 134.8}
+memcap: exit 0, peak 0.41 GB of 8.00 GB cap
+exit 0 secs 136

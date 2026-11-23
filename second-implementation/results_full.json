@@ -1,0 +1,134 @@
+{
+ "A": {
+  "U": "0.393198484526574",
+  "L": "0.393198484464437",
+  "U_engine_cert": "0.393198484526621",
+  "engine_claim_check": "PASS",
+  "gap": "6.2137E-11",
+  "ceiling_check": {
+   "kind": "rllbec",
+   "K": 12,
+   "windows": 610,
+   "terms": 4997120,
+   "tamper": false,
+   "max_edge_value": "[1.3931984845265731092 +/- 2.95e-21]",
+   "rhs_U_plus_HYX": "[1.3931984845265740000 +/- 3e-24]",
+   "implied_ceiling_upper": "0.3931984845265731092029454",
+   "claimed": "196599242263287/500000000000000",
+   "verdict": "PASS",
+   "seconds": 12.6
+  },
+  "ceiling_check_verdict": "PASS",
+  "ceiling_tamper_verdict": "REJECT",
+  "ceiling_claim_minus_1em12_verdict": "REJECT",
+  "floor_check": {
+   "source": "theta_rllbec_dualK8.json",
+   "depth": 13,
+   "tamper": false,
+   "nodes": 4896769,
+   "L_d_minus_HYX": "[0.3931984844644379381527594 +/- 1.42e-26]",
+   "certified_lower": "0.393198484464437938152759385822",
+   "claimed": "0.393198484464437",
+   "claim_fraction": "393198484464437/1000000000000000",
+   "verdict": "PASS",
+   "extra_claims": {
+    "393198484465437/1000000000000000": "REJECT"
+   },
+   "seconds": 67.2
+  },
+  "floor_check_verdict": "PASS",
+  "floor_claim_plus_1em12_verdict": "REJECT",
+  "floor_tamper_theta_verdict": "REJECT",
+  "files": {
+   "qtab_rllbec_1-2_K12.npy": "98ab12bd33f336490c25ad9da1293cc50daea940981b7c9f01d30eaa626e55dc",
+   "V_rllbec_1-2_K12.npy": "03a544a69f4f028762ed2882619a943498bed8c803900c64ccc6f8e16b920d41",
+   "cert_rllbec_1-2_K12.json": "d108b8f487e19282c59d30c587fca8cbf870818ed5f2a16f5d226d77e54b5147",
+   "theta_rllbec_dualK8.json": "2a5b87c0a53a574ed16eec1217e61ed8d9eac0270b965532f6348d09b67846b8"
+  },
+  "plan": {
+   "kind": "rllbec",
+   "noise": "1/2",
+   "K": 12,
+   "floor_src": "theta_rllbec_dualK8.json",
+   "floor_depth": 13,
+   "L_claim": "0.393198484464437"
+  }
+ },
+ "B": {
+  "U": "0.519684268667911",
+  "L": "0.519684268667857",
+  "U_engine_cert": "0.519684268667931",
+  "engine_claim_check": "PASS",
+  "gap": "5.4E-14",
+  "ceiling_check": {
+   "kind": "rllbsc",
+   "K": 14,
+   "windows": 1597,
+   "terms": 52330496,
+   "tamper": false,
+   "max_edge_value": "[0.80608122578386635133 +/- 2.24e-21]",
+   "rhs_U_plus_HYX": "[0.80608122578386712877 +/- 3.53e-21]",
+   "implied_ceiling_upper": "0.5196842686679102225612875",
+   "claimed": "519684268667911/1000000000000000",
+   "verdict": "PASS",
+   "seconds": 134.8
+  },
+  "ceiling_check_verdict": "PASS",
+  "ceiling_tamper_verdict": "REJECT",
+  "ceiling_claim_minus_1em12_verdict": "REJECT",
+  "floor_check": {
+   "source": "theta_rllbsc_dualK8.json",
+   "depth": 14,
+   "tamper": false,
+   "nodes": 1114099,
+   "L_d_minus_HYX": "[0.5196842686678576080444487 +/- 4.81e-26]",
+   "certified_lower": "0.519684268667857608044448748092",
+   "claimed": "0.519684268667857",
+   "claim_fraction": "519684268667857/1000000000000000",
+   "verdict": "PASS",
+   "extra_claims": {
+    "519684268668857/1000000000000000": "REJECT"
+   },
+   "seconds": 32.5
+  },
+  "floor_check_verdict": "PASS",
+  "floor_claim_plus_1em12_verdict": "REJECT",
+  "floor_tamper_theta_verdict": "REJECT",
+  "files": {
+   "qtab_rllbsc_1-20_K14.npy": "7a36c434a6f31fdd02245d545518e31acae7ae7d1e3bca13d8d8dc8985b0e9d2",
+   "V_rllbsc_1-20_K14.npy": "25b331485dc31eb3df84a785a3752a317fd8592aaadaea456afb3686e3b0f802",
+   "cert_rllbsc_1-20_K14.json": "7e93a625a28103c43443a13799d57e5175e1c49ede5dc51c0aa62c238c1216f2",
+   "theta_rllbsc_dualK8.json": "6ba9d4958d715dc8268cdea2e754e223639852bf38c930ea917fe6eeb732d14d"
+  },
+  "plan": {
+   "kind": "rllbsc",
+   "noise": "1/20",
+   "K": 14,
+   "floor_src": "theta_rllbsc_dualK8.json",
+   "floor_depth": 14,
+   "L_claim": "0.519684268667857"
+  }
+ },
+ "scripts": {
+  "assemble.py": "6e25bebb4cfc03c8477d87e4f9d4cb9ab3e66f5bb9b30fc4ea947392d7148998",
+  "ceil_engine.py": "af116864631fffdea38ceda275a1c8207d9705ac10744191a3b3e8c3394f1e88",
+  "check_ceil.py": "3884d7e1ac8c6e1398d4b96417568befb28b51deee93b83393f2e01eb7934bce",
+  "check_floor.py": "31fc79c64ca57cac6659c6ca12408c9b5ea16376e9df69d4870ee24b92dfcb77",
+  "ctl_ceil.py": "585048f7290cded3302f7779aae60567ec27cdb1dbd08a41003440344907e1ef",
+  "ctl_floor.py": "6c196b5c56bea6e2f0e969d1c096f48bd8718962e9dec681681825137dad765e",
+  "ctl_log2.py": "d3a98219fb92c7c13ebab68af8e05712b896b2a5173d2f0770383cfb8c49ab05",
+  "floor_engine.py": "ec92ef64bf081cf8ddfcab95920de76dba40a0ea04b728542517d741ab0ba0db",
+  "ivl.py": "350683de22b61e89df5d94c378e29d83d77a6534b4bed3f3eabc7e9242785249",
+  "merge_results.py": "e2bd291988e4a9ecb6536ec59f9e56b570d1cef257c5c894497dd1401fa9bce9",
+  "mkctl.py": "3a874711009cef889d43bb01d5b9896792c183ef7b91faf514a0106e557e1384",
+  "models.py": "551e3fb27ea9ed5c61f60c5a41a085b5b2cff42c3540b214fd1fb145f9a27df0",
+  "opt_dual.py": "6dc16e1f906f06f9829918570db83afe86b84a6bb2533ca69d410adea8c9bc2a",
+  "opt_floor.py": "8225da53b2784d3bd4b1c4985f9b393e37e60ccd9eb5a29e232abd403beae1a7",
+  "opt_floor_rl.py": "22ed652daae45c4de38358b12c4c592f3bb2101d1e369a59c10c122363db2d35",
+  "probe_sizes.py": "d277c137ce0a7fd7ef2444a42514afb59e83ed569cfcfea13858c4a3479ff403",
+  "run_ceil.py": "b949e37f2f8e7a00e072cc4061b51e9734cd22a043bf8030c3dbbcbd8ba825b9",
+  "run_ceilq.py": "6038937c214699d315b155c6d4a53f2aacc7b758c0b190140250f4ce99fe639c",
+  "run_floor.py": "08bc8acc537eee59f08546bb92b4d4ecb7584ba450463f5f9804bd5f7e9cfeda",
+  "z2theta.py": "a460339d35f50340a8ebd61ae40f6fb80ded138324fcdbab836ad764974797e8"
+ }
+}

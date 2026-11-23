@@ -1,0 +1,19 @@
+  leaf 1/16  2.1s
+  leaf 2/16  3.8s
+  leaf 4/16  7.1s
+  leaf 8/16  14.0s
+  leaf 16/16  28.1s
+channel: rllbec:1/2   mode: flag (erasure flag law 1/2)
+input sha256 = f120a54ba596cbdd6cf919af3bf2d68e16ff0f663202a215ca4db78133436b0c
+kernel cert_backward2.py sha256 = a7a0ae2477ec8807eebdd6e579a65878796b3eee9e64616d1f19fb0058cd87dd
+rows atlas_rows.py sha256 = 723b43bfe915710a9ecf5d118dc0fe92989f40e524417b0404a9d3760dafa70e
+spec channel_spec.py sha256 = f613b2a91fcc569e2fc3b22e91d5707d285f59fc3d4ed71e86023b8067218a33
+input K=8 automaton states nq=256 hidden states M=641 N=10 (kernel lengths [20]) nb=16  LAMBDA = 3.8671e-15
+noise term (exact rational upper bound) ~ 0.0000000000000000
+a-priori: smallest positive float coefficient 2.041402e-01
+  run length 20: observed min positive beta 1.307e-07 max beta 0.0009765625
+L_N computed (exact combination of float entropies) = 0.3931980086507717 (rounded down)
+rigorous error bound E = 5.305e-13
+CERTIFIED LOWER ENDPOINT: 0.39319800865024
+time total 28.6s
+memcap: exit 0, peak 2.53 GB of 8.00 GB cap

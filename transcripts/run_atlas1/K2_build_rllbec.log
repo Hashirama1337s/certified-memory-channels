@@ -1,0 +1,6 @@
+atlas\seats\design-1\engine\atlas_ub.py:105: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=cp.CLARABEL, tol_gap_abs=1e-13, tol_gap_rel=1e-13, tol_feas=1e-13, tol_ktratio=1e-10, max_iter=500)
+  dual solve rllbec:1/2 k=6: rho_float = 0.3931985204846 status=optimal_inaccurate nnz(Mu)=7040 edges=55 (0.2s)
+  exact rho from dual t: 0.393198507385569; from KKT conditional law: 0.393198506953416
+rllbec:1/2 k=6 D=2^40: VI 107 its bracket [0.3931985069533, 0.3931985069534]; exact rho = 0.393198506953416 (rounded up) [perturbed (0, 0)]; wrote atlas/run_atlas1/K2_tamper_rllbec.json (1.5s)
+memcap: exit 0, peak 2.20 GB of 8.00 GB cap

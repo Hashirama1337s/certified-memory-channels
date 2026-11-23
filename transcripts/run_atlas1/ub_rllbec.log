@@ -1,0 +1,11 @@
+atlas\seats\design-1\engine\atlas_ub.py:105: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=cp.CLARABEL, tol_gap_abs=1e-13, tol_gap_rel=1e-13, tol_feas=1e-13, tol_ktratio=1e-10, max_iter=500)
+rllbec:1/2 k=1: dual_float=0.3962406295397 exact_rho=0.396240625426969 choice=dual-t verify=ACCEPT build=1.3s verify=0.0s sha256=308d193f41317c26
+rllbec:1/2 k=2: dual_float=0.3934519138440 exact_rho=0.393451906905563 choice=dual-t verify=ACCEPT build=0.0s verify=0.0s sha256=c9725ff892adde97
+rllbec:1/2 k=3: dual_float=0.3932219636604 exact_rho=0.393221957591526 choice=dual-t verify=ACCEPT build=0.0s verify=0.0s sha256=41f583a8f01e76e5
+rllbec:1/2 k=4: dual_float=0.3932007347964 exact_rho=0.393200727284614 choice=dual-t verify=ACCEPT build=0.0s verify=0.0s sha256=455ff93f9a381008
+rllbec:1/2 k=5: dual_float=0.3931987158279 exact_rho=0.393198701226182 choice=dual-t verify=ACCEPT build=0.1s verify=0.0s sha256=225609584e3b471d
+rllbec:1/2 k=6: dual_float=0.3931985204846 exact_rho=0.393198506953416 choice=kkt verify=ACCEPT build=0.2s verify=0.0s sha256=f3a3b039fa1740f3
+rllbec:1/2 k=7: dual_float=0.3931985388840 exact_rho=0.393198498975634 choice=kkt verify=ACCEPT build=0.5s verify=0.0s sha256=355f0c8be7d78753
+rllbec:1/2 k=8: dual_float=0.3931986081692 exact_rho=0.393198498975634 choice=lift verify=ACCEPT build=1.5s verify=0.0s sha256=6e9405e53da613d0
+memcap: exit 0, peak 2.27 GB of 8.00 GB cap

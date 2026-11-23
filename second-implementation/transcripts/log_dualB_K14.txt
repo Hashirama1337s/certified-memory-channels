@@ -1,0 +1,13 @@
+windows 1597 nodes 987 free 610
+start F 0.5196842686678576
+memcap: exit 1, peak 0.84 GB of 8.00 GB cap
+SUPERSEDED: killed
+Traceback (most recent call last):
+  File "atlas\seats\blind-1\run_ceilq.py", line 9, in <module>
+    q = np.load('qtab_%s.npy' % tag)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\site-packages\numpy\lib\_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'qtab_rllbsc_1-20_K14.npy'
+memcap: exit 1, peak 0.40 GB of 8.00 GB cap
