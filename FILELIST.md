@@ -8,11 +8,12 @@ Every file in this package: what it is for, where it came from in the working fo
 and whether it was changed on the way ("yes": see PATCHES.md), copied byte for byte ("no"), compressed with gzip from the
 certified file ("gzip"), or written for this release ("new"). `MANIFEST.sha256` holds the checksum of every file listed here.
 
-355 files listed here, plus `MANIFEST.sha256` itself.
+356 files listed here, plus `MANIFEST.sha256` itself.
 
 | file | purpose | source | changed |
 |---|---|---|---|
 | `.gitattributes` | keeps line endings byte-exact (checksums) | new | new |
+| `.zenodo.json` | archive metadata (DOI record) | new | new |
 | `CITATION.cff` | citation metadata | new | new |
 | `FILELIST.md` | this list | new | new |
 | `LICENSE` | CC BY 4.0 licence text | new | new |

@@ -1,0 +1,35 @@
+{
+  "upload_type": "software",
+  "title": "Channels with memory: certified capacity windows for the dicode erasure and (1,inf)-RLL erasure and flip channels",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
+  "description": "<p><strong>In plain words.</strong> How many bits per use can you send through a channel that remembers your last symbol? For three classic binary channels with memory - the dicode erasure channel, and the erasure and flip channels whose inputs may never contain two 1s in a row (the (1,&infin;)-RLL constraint) - no formula is known, and published results are ranges. We give proven floors and ceilings on the capacity without feedback at five noise levels per channel (15 points). Window widths range from 8.1e-13 to 1.2e-4 bits per use; the published proven ranges we compared with are between a few ten-thousandths and a few hundredths wide.</p><p><strong>How.</strong> Ceilings are order-k dual bounds with Markov output models (a standard method), checked over every allowed input window in exact rational arithmetic with upward-rounded logarithms; anyone can re-check a certificate in seconds. Floors are Birch-type lower bounds on the information rate of explicit Markov inputs, with a written rounding-error bound. Search for good tables and inputs uses floating point; only the checking programs certify.</p><p><strong>Checks.</strong> Seven sealed (pre-registered) tests are listed with their verdicts, including one VOID and four FAILED, kept as scored. A clean-room rebuild reproduces all 16 certificates and all 16 floors; an independent second implementation (shipped) agrees at the three standard points; internal referee rounds on the method and on this text (lab checks, not external peer review).</p><p><strong>Not claimed.</strong> Where C lies inside a window, optimality of our inputs or tables, anything new about capacity with feedback (we give certified sizes of known feedback gaps, with credit), or priority. Assumption: correctly rounded IEEE 754 arithmetic for the floor kernel.</p><p>Prepared with AI assistance; what was checked, and by what, is stated above.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "language": "eng",
+  "keywords": [
+    "channel capacity",
+    "channels with memory",
+    "dicode erasure channel",
+    "run-length limited constraint",
+    "input-constrained channels",
+    "information theory",
+    "duality upper bound",
+    "Birch bound",
+    "computer-assisted proof",
+    "rigorous numerics"
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementedBy", "identifier": "https://github.com/Hashirama1337s/certified-memory-channels", "scheme": "url"},
+    {"relation": "references", "identifier": "arXiv:1911.02113", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "arXiv:2303.18008", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "arXiv:1609.00189", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "arXiv:1503.03359", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "arXiv:1604.01878", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "10.5281/zenodo.24443961", "scheme": "doi"}
+  ]
+}
