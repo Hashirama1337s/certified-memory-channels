@@ -84,3 +84,7 @@ The published ranges we compare with are rigorous results by others and we contr
 ## What each status means
 
 `CERTIFIED` rigorous bound (exact rational arithmetic and upward-rounded logarithms for ceilings; a written rounding-error bound for floors) · `CITED` published by others, named · `UNTESTED` a lead we noticed and did not test.
+
+## Related projects
+
+- [exact-channel-ceilings](https://github.com/Hashirama1337s/exact-channel-ceilings): the low-order ceilings of this release's channels written as exact algebraic numbers, with replayable certificates (DOI 10.5281/zenodo.24619820).
